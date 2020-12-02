@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.com/jmgarrocho/egc20D02.svg?branch=master)](https://travis-ci.com/jmgarrocho/egc20D02)
 Plataforma voto electrónico educativa
 =====================================
 
