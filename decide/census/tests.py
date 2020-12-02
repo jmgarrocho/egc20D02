@@ -22,7 +22,7 @@ class CensusTestCase(BaseTestCase):
     def test_check_vote_permissions(self):
         response = self.client.get('/census/{}/?voter_id={}'.format(1, 2), format='json')
         self.assertEqual(response.status_code, 401)
-        self.assertEqual(response.json(), 'Invalid voter')
+        self.assertEqual(response.json(), '1')
 
         response = self.client.get('/census/{}/?voter_id={}'.format(1, 1), format='json')
         self.assertEqual(response.status_code, 200)
